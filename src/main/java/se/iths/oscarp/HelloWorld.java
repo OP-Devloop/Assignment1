@@ -23,7 +23,6 @@ public class HelloWorld {
                     running = false; // Stop loop
                 }
             }
-            sc.close(); // Stop scanner
         });
 
         // Starts inputThread to start looking for the ENTER key
@@ -44,3 +43,4 @@ public class HelloWorld {
         }
     }
 }
+
