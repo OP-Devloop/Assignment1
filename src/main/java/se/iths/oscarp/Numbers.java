@@ -10,7 +10,7 @@ public class Numbers {
     private static String firstName;
     private static String lastName;
 
-    public static void Max() {
+    public static void max() {
         // The numbers to check
         int[] numbers = {22, 4, 7, 19, 1, 30};
         // Max starts as 0
@@ -26,7 +26,7 @@ public class Numbers {
         }
         System.out.println("Biggest number is: " + max);
     }
-    public static void DoubleMax() {
+    public static void doubleMax() {
         double one = 0;
         double two = 0;
         // Boolean to check if input is valid
@@ -81,7 +81,7 @@ public class Numbers {
             System.out.println("Both numbers are equal");
         }
     }
-    public static void Name() {
+    public static void name() {
 
         // Anropar Object firstName
         firstName();

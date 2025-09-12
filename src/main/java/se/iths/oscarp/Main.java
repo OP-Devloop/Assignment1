@@ -17,10 +17,10 @@ public class Main {
 
             switch (choice) {
             case "1":
-                HelloWorld();
+                helloWorld();
                 break;
             case "2":
-                Numbers();
+                numbers();
                 break;
             case "3":
                 onOff = false;
@@ -28,11 +28,11 @@ public class Main {
         }
     }
 
-    public static void HelloWorld() {
+    public static void helloWorld() {
         HelloWorld.helloWorldLook();
     }
 
-    public static void Numbers() {
+    public static void numbers() {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("""
@@ -44,13 +44,13 @@ public class Main {
 
         switch (choice) {
             case "1":
-                Numbers.Max();
+                Numbers.max();
                 break;
             case "2":
-                Numbers.DoubleMax();
+                Numbers.doubleMax();
                 break;
             case "3":
-                Numbers.Name();
+                Numbers.name();
                 break;
         }
     }
