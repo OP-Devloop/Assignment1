@@ -103,7 +103,7 @@ public class Numbers {
 
     // Object för att få lastName
     public static void lastName() {
-        System.out.print("Please enter First name: ");
+        System.out.print("Please enter Last name: ");
         lastName = sc.next();
 
         // retunera till lastName anropet
