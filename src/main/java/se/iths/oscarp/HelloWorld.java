@@ -18,7 +18,7 @@ public class HelloWorld {
                 // Scanner is looking for input
                 String input = sc.nextLine();
 
-                // If scanner see's ENTER (ENTER = isEmpty()) set running to false
+                // If scanner see's ENTER (ENTER = isEmpty() = "") set running to false
                 if(input.isEmpty()){
                     running = false; // Stop loop
                 }
